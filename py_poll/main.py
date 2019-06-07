@@ -3,7 +3,7 @@ import os
 import csv
 
 #path to CSV data
-csv_path = os.path.join('..','py_poll','election_data.csv')
+csv_path = os.path.join('..','python-challenge','election_data.csv')
 #Identify and read CSV data
 with open(csv_path, newline="") as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=',')
